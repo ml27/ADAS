@@ -83,7 +83,8 @@ class CameraCapture:
     
     def __enter__(self):
         """Context manager entry."""
-        self.initialize()
+        if not self.initialize():
+            raise RuntimeError(f"Failed to initialize camera on port {self.port}")
         return self
     
     def __exit__(self, exc_type, exc_val, exc_tb):

@@ -140,11 +140,11 @@ requirements.txt        # Python dependencies
 
 ## Requirements
 
-- torch>=2.0.0
-- torchvision>=0.15.0
-- transformers>=4.30.0
-- opencv-python>=4.8.0
-- pillow>=10.0.0
+- torch>=2.6.0
+- torchvision>=0.20.0
+- transformers>=4.48.0
+- opencv-python>=4.8.1.78
+- pillow>=10.3.0
 - numpy>=1.24.0
 
 ## License

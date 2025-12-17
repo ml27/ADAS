@@ -4,6 +4,7 @@ Segmentation module using Hugging Face models for drivable area detection.
 
 import torch
 import numpy as np
+import cv2
 from PIL import Image
 from transformers import AutoImageProcessor, AutoModelForSemanticSegmentation
 from typing import Optional, List
